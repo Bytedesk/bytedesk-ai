@@ -1,2 +1,11 @@
-# bytedesk-ai
-customer service chatbot based on LLM and your knowledgebase
+# Bytedesk
+
+## Getting Started
+
+### Server
+
+#### Spring Boot
+
+#### Python
+
+### Admin
