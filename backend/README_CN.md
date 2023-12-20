@@ -8,8 +8,6 @@ pyenv global 3.11.4
 cd backend
 python -m venv venv
 pip install -r requirements.txt
-# 
-pip install permchain python-multipart
 # REDIS_URL = "redis://:%s@%s:%s/%s"%(REDIS_PASSWORD,REDIS_HOST,REDIS_PORT,REDIS_DB)
 export REDIS_URL=redis://:C8aJEVCCvSA1VFi8@127.0.0.1:6379/3
 # 安装 redissearch
