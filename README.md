@@ -4,8 +4,6 @@
 
 ### Server
 
-#### Spring Boot
-
 #### Python
 
 ### Admin
