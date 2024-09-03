@@ -1,8 +1,8 @@
 <!--
  * @Author: jackning 270580156@qq.com
- * @Date: 2024-08-29 09:30:25
+ * @Date: 2024-08-31 14:04:32
  * @LastEditors: jackning 270580156@qq.com
- * @LastEditTime: 2024-08-31 14:51:46
+ * @LastEditTime: 2024-08-31 14:43:50
  * @Description: bytedesk.com https://github.com/Bytedesk/bytedesk
  *   Please be aware of the BSL license restrictions before installing Bytedesk IM – 
  *  selling, reselling, or hosting Bytedesk IM as a service is a breach of the terms and automatically terminates your rights under the license. 
@@ -12,7 +12,9 @@
  *  技术/商务联系：270580156@qq.com
  * Copyright (c) 2024 by bytedesk.com, All Rights Reserved. 
 -->
-# readme
+# 微语ai
+
+## 初始化步骤
 
 ```bash
 # 设置国内镜像
@@ -42,9 +44,6 @@ python main.py
 # nohup python main.py > output.log 2>&1 &
 # 排除embeddings文件夹
 sh cicd/scripts/release.sh
-# 首次-上传所有
+# 上传所有
 sh cicd/scripts/release-all.sh
-```
-
-```bash
 ```
