@@ -30,14 +30,14 @@ python -m venv .venv
 source .venv/bin/activate
 # deactivate
 which python
-# 
+# install poetry
 pip install poetry
 poetry config virtualenvs.prefer-active-python true
-# 
+# python path
 poetry run which python
 # poetry add fastapi, uvicorn
 poetry install --no-root
-# 
+# run
 python main.py
 # nohup python main.py > output.log 2>&1 &
 # 排除embeddings文件夹

@@ -2,7 +2,7 @@
 Author: jackning 270580156@qq.com
 Date: 2024-08-29 14:49:54
 LastEditors: jackning 270580156@qq.com
-LastEditTime: 2024-08-31 15:25:13
+LastEditTime: 2024-09-03 09:14:22
 Description: bytedesk.com https://github.com/Bytedesk/bytedesk
   Please be aware of the BSL license restrictions before installing Bytedesk IM – 
  selling, reselling, or hosting Bytedesk IM as a service is a breach of the terms and automatically terminates your rights under the license. 
@@ -159,7 +159,7 @@ class MyRedisVector:
             created = chunk.created
             finish_reason = chunk.choices[0].finish_reason
             logging.info(
-                f'query_llm chunk: {chunk.choices[0].delta.content}, {chunk.choices[0].finish_reason}, {chunk.model}, {chunk.created}, {chunk.usage}')
+                f'query_llm: {counter} {chunk.choices[0].delta.content}, {chunk.choices[0].finish_reason}, {chunk.model}, {chunk.created}, {chunk.usage}')
             if finish_reason == 'stop':
                 promptTokens = chunk.usage.prompt_tokens
                 completionTokens = chunk.usage.completion_tokens
